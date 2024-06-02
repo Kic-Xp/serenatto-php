@@ -36,15 +36,15 @@ Este é um projeto de desenvolvimento web utilizando PHP, HTML, CSS e JavaScript
 ## Instalação e Configuração
 
 1. Clone o repositório:
-   git clone https://github.com/seu-usuario/projeto-serenatto.git
+   git clone `https://github.com/seu-usuario/projeto-serenatto.git`
 2. Navegue até o diretório do projeto:
-   cd projeto-serenatto
+   `cd projeto-serenatto`
 3. Configure a conexão com o banco de dados no arquivo src/conexao-bd.php:
-    <?php
+    `<?php
     $pdo = new PDO('mysql:host=localhost;dbname=seu_banco_de_dados', 'usuario', 'senha');
-    ?>
+    ?>`
 4. Importe o banco de dados (arquivo SQL) para sua instância de banco de dados MySQL.
-5. Abra o arquivo index.php no seu navegador preferido para visualizar a aplicação.
+5. Abra o arquivo `index.php` no seu navegador preferido para visualizar a aplicação.
 
 Agradecimentos Especiais
 
